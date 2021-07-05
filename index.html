@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FullPage.js</title>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.8.1/mdb.min.css"
+          integrity="sha512-erAOC5jcy0VBvaOS4UbBrI/QC04RvG3xXLutcOxzkUTcQ7qX3awh1Yi534gBQqVa5NGwG+uPHMOT6XuStZlhJw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<nav class="nav">
+
+    <ul id="menu" class="menu">
+
+        <a class="navbar-brand mt-2 mt-lg-0" href="index.html">
+            <img
+                    src="media/logo.png"
+                    height="75"
+                    alt=""
+                    loading="lazy"
+                    class="marca "
+            />
+        </a>
+
+
+        <li data-menuanchor="inicio" class="active">
+            <a href="#inicio">Inicio</a>
+        </li>
+        <li data-menuanchor="about">
+            <a href="#about">Sobre Nosotros</a>
+        </li>
+        <li data-menuanchor="telecomunicacionSeguridad">
+            <a href="#telecomunicacionSeguridad">Telecomunicación y Seguridad</a>
+        </li>
+
+        <li data-menuanchor="accesoEnergia">
+            <a href="#accesoEnergia">Acceso y Energia</a>
+        </li>
+
+
+    </ul>
+</nav>
+
+<main id="fullpage">
+    <header class="section header">
+        <div class="contenedor-titulo">
+            <h1 class="titulo">
+
+                <span class="texto-naranja">Sistemas y</span>
+                <span class="texto-black">Tecnologia</span>
+            </h1>
+
+
+        </div>
+        <div class="contenedor-icono">
+            <p><a href="#about" class="texto-blanco"><i class="fas fa-chevron-down"></i></a></p>
+        </div>
+
+        <!-- Video -->
+        <!-- <video loop muted data-autoplay class="bg-video">
+            <source src="media/bg-video.m4v" type="video/mp4">
+        </video> -->
+    </header>
+
+    <section class="section nosotros">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-black fs-2 text-center">Sistemas y Tecnologia es una empresa de ......... Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Vel voluptate voluptatem similique dolor. Veniam
+                        sapiente dicta itaque provident pariatur ut sequi quos iure placeat ad?</p>
+                </div>
+
+                <div class="col">
+
+
+                    <div class="col offset-lg-5 card text-white bg-primary mb-3 text-center" style="max-width: 18rem;">
+
+                        <div class="card-body">
+                            <h5 class="card-title fs-4">Telecomunicaciones</h5>
+                            <h5 class="card-title fs-4">Seguridad</h5>
+                            <h5 class="card-title fs-4">Acceso</h5>
+                            <h5 class="card-title fs-4">Energia</h5>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section productos">
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+
+
+                    <span class="texto-blue">Cableado Structurado</span>
+
+
+                </p>
+                <p class="descripcion text-black">Cableado completo</p>
+
+
+            </div>
+        </article>
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+                    <span class="texto-naranja">Servidores</span>
+
+                </p>
+                <p class="descripcion text-black">Variedad en servidores</p>
+
+            </div>
+        </article>
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+                    <span class="texto-naranja">Switch</span>
+
+                </p>
+                <p class="descripcion text-black">Lorem, ipsum dolor.</p>
+
+            </div>
+        </article>
+    </section>
+
+
+    <section class="section seguridad">
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+                    <span class="texto-naranja">Cercas Electrificadas</span>
+
+                </p>
+                <p class="descripcion texto-negro">Lorem, ipsum dolor.</p>
+
+            </div>
+        </article>
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+                    <span class="texto-naranja">Camaras de Vigilancia</span>
+
+                </p>
+                <p class="descripcion texto-negro">Lorem, ipsum dolor.</p>
+
+            </div>
+        </article>
+        <article class="slide">
+            <div class="informacion-producto">
+                <p class="modelo">
+                    <span class="texto-naranja">Alarmas</span>
+                </p>
+                <p class="descripcion text-white">Alarmas para el hogar</p>
+
+            </div>
+        </article>
+    </section>
+
+
+    <section class="section">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Slogan de Compañia
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                                dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Productos
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Telecomunicaciones</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Seguridad</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Acceso</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Energia</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contactanos
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                info@example.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+            <br>
+            <!-- Copyright -->
+            <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold" href="index.html">Sistemas y Tecnologias</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </section>
+
+
+</main>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
